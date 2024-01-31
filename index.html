@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
 
     <title>Pokedex</title>
 
@@ -17,40 +18,13 @@
 <body>
 
     <main class="content">
-        <h1>Pokedex</h1>
+        <h1 id="title">Pokedex</h1>
 
-        <ol class="pokemons">
-            <li class="pokemon">
-                <div class="name-number">
-                    <span class="poke-name">Bulbasaur</span>
-                    <span class="poke-number">#1</span>
-                </div>
-
-                <div class="type-img">
-                    <ol class="types">
-                        <li class="type">grass</li>
-                        <li class="type">poison</li>
-                    </ol>
-                    <img class="poke-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg">
-                </div>
-            </li>
-            <li class="pokemon">
-                <div class="name-number">
-                    <span class="poke-name">Bulbasaur</span>
-                    <span class="poke-number">#1</span>
-                </div>
-
-                <div class="type-img">
-                    <ol class="types">
-                        <li class="type">grass</li>
-                        <li class="type">poison</li>
-                    </ol>
-                    <img class="poke-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg">
-                </div>
-            </li>
-        </ol>
+        <ol class="pokemons"></ol>
 
     </main>
+
+    <script src="./scripts/main.js" defer></script>
 
 </body>
 </html>
