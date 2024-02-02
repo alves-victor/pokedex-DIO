@@ -54,6 +54,7 @@
     margin: 0.25rem 0;
     font-size: 0.825rem;
     border-radius: 1rem;
+    text-transform: capitalize;
 }
 
 .poke-icon{
