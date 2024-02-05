@@ -3,7 +3,7 @@ const pokeApi = {}
 
 function savePokemonDetail(pokemonDetail){
     const pokemon = new Pokemon();
-    pokemon.number = pokemonDetail.order;
+    pokemon.number = pokemonDetail.id;
     pokemon.name = pokemonDetail.name;
     pokemon.types = pokemonDetail.types.map(types => types.type.name);
     pokemon.mainType = pokemon.types[0];
