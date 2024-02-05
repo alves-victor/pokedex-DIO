@@ -38,6 +38,7 @@
 
 .poke-number{
     font-size: 1.1rem;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .type-img{
